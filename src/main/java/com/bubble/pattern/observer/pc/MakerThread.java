@@ -1,6 +1,5 @@
 package com.bubble.pattern.observer.pc;
 
-import java.sql.Time;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 

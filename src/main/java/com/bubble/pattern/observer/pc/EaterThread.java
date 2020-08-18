@@ -1,7 +1,5 @@
 package com.bubble.pattern.observer.pc;
 
-import sun.tools.jconsole.Tab;
-
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 

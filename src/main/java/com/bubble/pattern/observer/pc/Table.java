@@ -1,7 +1,7 @@
 package com.bubble.pattern.observer.pc;
 
 /**
- * 表示桌子
+ * Channel角色：表示桌子
  *
  * @author wugang
  * date: 2020-07-16 19:59
