@@ -13,15 +13,15 @@ import java.io.Serializable;
 public class LazySingleton2Safe implements Serializable {
     private static final long serialVersionUID = -8299465295413278150L;
 
+    private volatile static LazySingleton2Safe instance;
+
     private LazySingleton2Safe() {
     }
-
-    private static LazySingleton2Safe instance;
 
     /**
      * 对静态工厂方法进行了同步处理,为了防止多线程环境中产生多个实例
      *
-     * @return
+     * @return LazySingleton2Safe
      */
     public static LazySingleton2Safe getInstance() {
         if (instance == null) {
